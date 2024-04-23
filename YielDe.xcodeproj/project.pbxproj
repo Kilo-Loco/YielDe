@@ -17,6 +17,9 @@
 		7C28B18B2BD7848D00905850 /* DashboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28B18A2BD7848D00905850 /* DashboardScreen.swift */; };
 		7C28B18D2BD788D300905850 /* DashboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28B18C2BD788D300905850 /* DashboardButton.swift */; };
 		7C28B18F2BD78B0200905850 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28B18E2BD78B0200905850 /* Theme.swift */; };
+		7C28B1912BD78CE600905850 /* DashboardScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28B1902BD78CE600905850 /* DashboardScreenViewModel.swift */; };
+		7C28B1932BD78EB500905850 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28B1922BD78EB400905850 /* BackgroundView.swift */; };
+		7C28B1952BD7906C00905850 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28B1942BD7906C00905850 /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		7C28B18A2BD7848D00905850 /* DashboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardScreen.swift; sourceTree = "<group>"; };
 		7C28B18C2BD788D300905850 /* DashboardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardButton.swift; sourceTree = "<group>"; };
 		7C28B18E2BD78B0200905850 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		7C28B1902BD78CE600905850 /* DashboardScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardScreenViewModel.swift; sourceTree = "<group>"; };
+		7C28B1922BD78EB400905850 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		7C28B1942BD7906C00905850 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,9 @@
 				7C28B18A2BD7848D00905850 /* DashboardScreen.swift */,
 				7C28B18C2BD788D300905850 /* DashboardButton.swift */,
 				7C28B18E2BD78B0200905850 /* Theme.swift */,
+				7C28B1902BD78CE600905850 /* DashboardScreenViewModel.swift */,
+				7C28B1922BD78EB400905850 /* BackgroundView.swift */,
+				7C28B1942BD7906C00905850 /* Color+Extensions.swift */,
 			);
 			path = YielDe;
 			sourceTree = "<group>";
@@ -269,8 +278,11 @@
 				7C28B18D2BD788D300905850 /* DashboardButton.swift in Sources */,
 				7C28B1632BD782E300905850 /* ContentView.swift in Sources */,
 				7C28B18F2BD78B0200905850 /* Theme.swift in Sources */,
+				7C28B1952BD7906C00905850 /* Color+Extensions.swift in Sources */,
+				7C28B1932BD78EB500905850 /* BackgroundView.swift in Sources */,
 				7C28B1612BD782E300905850 /* YielDeApp.swift in Sources */,
 				7C28B18B2BD7848D00905850 /* DashboardScreen.swift in Sources */,
+				7C28B1912BD78CE600905850 /* DashboardScreenViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

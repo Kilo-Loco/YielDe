@@ -8,7 +8,9 @@
 import SwiftUI
 
 enum Theme {
-    static let disabledButtonBackgroundColor: Color = Color.gray.opacity(0.3)
+    static let backgroundOffWhite: Color = .init(rgb: 0xf0f1f4)
+    
+    static let disabledButtonBackgroundColor: Color = Color.gray.opacity(0.2)
     static let enabledButtonBackgroundColor: Color = Color.green.opacity(0.3)
     
     static let disabledButtonTextColor: Color = Color.gray
