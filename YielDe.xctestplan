@@ -1,0 +1,36 @@
+{
+  "configurations" : [
+    {
+      "id" : "1C1F0CCF-E9C7-4CED-861B-34206741F30C",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:YielDe.xcodeproj",
+      "identifier" : "7C28B15C2BD782E300905850",
+      "name" : "YielDe"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:YielDe.xcodeproj",
+        "identifier" : "7C28B16C2BD782E500905850",
+        "name" : "YielDeTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:YielDe.xcodeproj",
+        "identifier" : "7C28B1762BD782E500905850",
+        "name" : "YielDeUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

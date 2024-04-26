@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+let myValue = "forgotUsernameButton"
+
 struct DashboardScreen: View {
     
     @Environment(\.colorScheme) var colorScheme
@@ -55,31 +57,20 @@ struct DashboardScreen: View {
                         buttonState: $viewModel.supplyButtonState,
                         action: { print("SUPPLY") }
                     )
-                    
+                    .accessibilityIdentifier("Dashboard.SupplyButton")
+
                     DashboardButton(
                         title: "Borrow ETH",
                         buttonState: $viewModel.borrowButtonState,
-                        action: { print("SUPPLY") }
+                        action: { print("Borrow") }
                     )
-                    
+                    .accessibilityIdentifier("Dashboard.BorrowButton")
+
                     Spacer()
                         .frame(height: 30)
                     
-                    Section {
-                        HStack {
-                            Text("Collateral Asset")
-                                .font(.subheadline)
-                            Spacer()
-                            Text("Protocol Balance")
-                                .font(.subheadline)
-                        }
-                        .padding()
-                        
-                        
-                    }
-                    .background(sectionBackgroundColor)
-                    .cornerRadius(8)
-                    
+                    AssetSection()
+
                     Spacer()
                 }
                 .padding()

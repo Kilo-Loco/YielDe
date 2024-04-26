@@ -11,7 +11,7 @@ import SwiftUI
 struct YielDeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DashboardScreen()
         }
     }
 }

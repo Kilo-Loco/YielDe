@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0133642BDB6803006AD93E /* DashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0133632BDB6803006AD93E /* DashboardTests.swift */; };
+		7C0133662BDB6837006AD93E /* DashboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0133652BDB6837006AD93E /* DashboardUITests.swift */; };
 		7C28B1612BD782E300905850 /* YielDeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28B1602BD782E300905850 /* YielDeApp.swift */; };
-		7C28B1632BD782E300905850 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28B1622BD782E300905850 /* ContentView.swift */; };
 		7C28B1652BD782E500905850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C28B1642BD782E500905850 /* Assets.xcassets */; };
 		7C28B1682BD782E500905850 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C28B1672BD782E500905850 /* Preview Assets.xcassets */; };
-		7C28B1722BD782E500905850 /* YielDeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28B1712BD782E500905850 /* YielDeTests.swift */; };
-		7C28B17C2BD782E500905850 /* YielDeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28B17B2BD782E500905850 /* YielDeUITests.swift */; };
-		7C28B17E2BD782E500905850 /* YielDeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28B17D2BD782E500905850 /* YielDeUITestsLaunchTests.swift */; };
 		7C28B18B2BD7848D00905850 /* DashboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28B18A2BD7848D00905850 /* DashboardScreen.swift */; };
 		7C28B18D2BD788D300905850 /* DashboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28B18C2BD788D300905850 /* DashboardButton.swift */; };
 		7C28B18F2BD78B0200905850 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28B18E2BD78B0200905850 /* Theme.swift */; };
 		7C28B1912BD78CE600905850 /* DashboardScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28B1902BD78CE600905850 /* DashboardScreenViewModel.swift */; };
 		7C28B1932BD78EB500905850 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28B1922BD78EB400905850 /* BackgroundView.swift */; };
 		7C28B1952BD7906C00905850 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28B1942BD7906C00905850 /* Color+Extensions.swift */; };
+		7C3B74062BD8CBCE00C11428 /* AssetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3B74052BD8CBCE00C11428 /* AssetCell.swift */; };
+		7C3B74082BD8CF1200C11428 /* AssetSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3B74072BD8CF1200C11428 /* AssetSection.swift */; };
+		7C3B740A2BD8CF7000C11428 /* CardBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3B74092BD8CF7000C11428 /* CardBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,22 +41,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C0133632BDB6803006AD93E /* DashboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTests.swift; sourceTree = "<group>"; };
+		7C0133652BDB6837006AD93E /* DashboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardUITests.swift; sourceTree = "<group>"; };
 		7C28B15D2BD782E300905850 /* YielDe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YielDe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C28B1602BD782E300905850 /* YielDeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YielDeApp.swift; sourceTree = "<group>"; };
-		7C28B1622BD782E300905850 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7C28B1642BD782E500905850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C28B1672BD782E500905850 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7C28B16D2BD782E500905850 /* YielDeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YielDeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C28B1712BD782E500905850 /* YielDeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YielDeTests.swift; sourceTree = "<group>"; };
 		7C28B1772BD782E500905850 /* YielDeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YielDeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C28B17B2BD782E500905850 /* YielDeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YielDeUITests.swift; sourceTree = "<group>"; };
-		7C28B17D2BD782E500905850 /* YielDeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YielDeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7C28B18A2BD7848D00905850 /* DashboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardScreen.swift; sourceTree = "<group>"; };
 		7C28B18C2BD788D300905850 /* DashboardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardButton.swift; sourceTree = "<group>"; };
 		7C28B18E2BD78B0200905850 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		7C28B1902BD78CE600905850 /* DashboardScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardScreenViewModel.swift; sourceTree = "<group>"; };
 		7C28B1922BD78EB400905850 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		7C28B1942BD7906C00905850 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		7C3B74052BD8CBCE00C11428 /* AssetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetCell.swift; sourceTree = "<group>"; };
+		7C3B74072BD8CF1200C11428 /* AssetSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSection.swift; sourceTree = "<group>"; };
+		7C3B74092BD8CF7000C11428 /* CardBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackground.swift; sourceTree = "<group>"; };
+		7C3B740D2BD9C06900C11428 /* YielDe.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = YielDe.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,7 @@
 		7C28B1542BD782E300905850 = {
 			isa = PBXGroup;
 			children = (
+				7C3B740D2BD9C06900C11428 /* YielDe.xctestplan */,
 				7C28B15F2BD782E300905850 /* YielDe */,
 				7C28B1702BD782E500905850 /* YielDeTests */,
 				7C28B17A2BD782E500905850 /* YielDeUITests */,
@@ -109,13 +113,15 @@
 				7C28B1662BD782E500905850 /* Preview Content */,
 				7C28B1642BD782E500905850 /* Assets.xcassets */,
 				7C28B1602BD782E300905850 /* YielDeApp.swift */,
-				7C28B1622BD782E300905850 /* ContentView.swift */,
 				7C28B18A2BD7848D00905850 /* DashboardScreen.swift */,
 				7C28B18C2BD788D300905850 /* DashboardButton.swift */,
 				7C28B18E2BD78B0200905850 /* Theme.swift */,
 				7C28B1902BD78CE600905850 /* DashboardScreenViewModel.swift */,
 				7C28B1922BD78EB400905850 /* BackgroundView.swift */,
 				7C28B1942BD7906C00905850 /* Color+Extensions.swift */,
+				7C3B74052BD8CBCE00C11428 /* AssetCell.swift */,
+				7C3B74072BD8CF1200C11428 /* AssetSection.swift */,
+				7C3B74092BD8CF7000C11428 /* CardBackground.swift */,
 			);
 			path = YielDe;
 			sourceTree = "<group>";
@@ -131,7 +137,7 @@
 		7C28B1702BD782E500905850 /* YielDeTests */ = {
 			isa = PBXGroup;
 			children = (
-				7C28B1712BD782E500905850 /* YielDeTests.swift */,
+				7C0133632BDB6803006AD93E /* DashboardTests.swift */,
 			);
 			path = YielDeTests;
 			sourceTree = "<group>";
@@ -139,8 +145,7 @@
 		7C28B17A2BD782E500905850 /* YielDeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				7C28B17B2BD782E500905850 /* YielDeUITests.swift */,
-				7C28B17D2BD782E500905850 /* YielDeUITestsLaunchTests.swift */,
+				7C0133652BDB6837006AD93E /* DashboardUITests.swift */,
 			);
 			path = YielDeUITests;
 			sourceTree = "<group>";
@@ -216,10 +221,12 @@
 					};
 					7C28B16C2BD782E500905850 = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 						TestTargetID = 7C28B15C2BD782E300905850;
 					};
 					7C28B1762BD782E500905850 = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 						TestTargetID = 7C28B15C2BD782E300905850;
 					};
 				};
@@ -275,13 +282,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C3B74082BD8CF1200C11428 /* AssetSection.swift in Sources */,
+				7C3B74062BD8CBCE00C11428 /* AssetCell.swift in Sources */,
 				7C28B18D2BD788D300905850 /* DashboardButton.swift in Sources */,
-				7C28B1632BD782E300905850 /* ContentView.swift in Sources */,
 				7C28B18F2BD78B0200905850 /* Theme.swift in Sources */,
 				7C28B1952BD7906C00905850 /* Color+Extensions.swift in Sources */,
 				7C28B1932BD78EB500905850 /* BackgroundView.swift in Sources */,
 				7C28B1612BD782E300905850 /* YielDeApp.swift in Sources */,
 				7C28B18B2BD7848D00905850 /* DashboardScreen.swift in Sources */,
+				7C3B740A2BD8CF7000C11428 /* CardBackground.swift in Sources */,
 				7C28B1912BD78CE600905850 /* DashboardScreenViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,7 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C28B1722BD782E500905850 /* YielDeTests.swift in Sources */,
+				7C0133642BDB6803006AD93E /* DashboardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,8 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C28B17E2BD782E500905850 /* YielDeUITestsLaunchTests.swift in Sources */,
-				7C28B17C2BD782E500905850 /* YielDeUITests.swift in Sources */,
+				7C0133662BDB6837006AD93E /* DashboardUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +509,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9RJH7M9MS8;
@@ -510,6 +519,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kiloloco.YielDeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YielDe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YielDe";
@@ -521,6 +531,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9RJH7M9MS8;
@@ -540,6 +551,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9RJH7M9MS8;
@@ -547,9 +560,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kiloloco.YielDeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "";
 				TEST_TARGET_NAME = YielDe;
 			};
 			name = Debug;
@@ -558,6 +574,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9RJH7M9MS8;
@@ -565,9 +583,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kiloloco.YielDeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "";
 				TEST_TARGET_NAME = YielDe;
 			};
 			name = Release;
